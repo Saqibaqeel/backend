@@ -1,0 +1,11 @@
+const express = require('express');
+const router = express.Router();
+const upload = require('../config/multerConfig')
+const { uploadFile,getFileById } = require('../controllers/fileControler'); 
+const {checkUserAuth}=require('../middleware/auth-middleWare'); 
+
+// Route for uploading a file
+router.post('/upload', upload.single('pdf'),checkUserAuth, uploadFile);  
+router.get('/file/:id',checkUserAuth, getFileById);
+
+module.exports = router;
