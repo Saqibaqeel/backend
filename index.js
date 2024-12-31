@@ -22,27 +22,7 @@ app.use('/users', userRoutes);
 app.use('/files', fileRoutes);
 
 
-app.get('/upload', (req, res) => {
-    const html = `
-      <!DOCTYPE html>
-      <html lang="en">
-      <head>
-          <meta charset="UTF-8">
-          <meta name="viewport" content="width=device-width, initial-scale=1.0">
-          <title>Upload PDF</title>
-      </head>
-      <body>
-          <h1>Upload Your PDF File</h1>
-          <form action="/files/upload" method="POST" enctype="multipart/form-data">
-              <label for="pdf">Choose a PDF file to upload:</label>
-              <input type="file" name="pdf" accept=".pdf" required>
-              <button type="submit">Upload PDF</button>
-          </form>
-      </body>
-      </html>
-    `;
-    res.send(html);
-  });
+
 const start = async () => {
     await mongoose.connect(URL);
     app.listen(PORT, () => {
