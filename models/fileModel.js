@@ -5,7 +5,8 @@ const fileSchema = new mongoose.Schema({
   path: { type: String, required: true },
   fileType: { type: String, required: true },
   uploadedAt: { type: Date, default: Date.now },
-  fileUrl: { type: String }  
+  fileUrl: { type: String } 
+   
 });
 
 const File = mongoose.model('File', fileSchema);
