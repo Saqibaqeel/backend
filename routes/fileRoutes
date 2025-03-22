@@ -10,6 +10,7 @@ router.get('/file/:id',checkUserAuth, getFileById);
 router.get('/form', getForm);
 router.get('/test', TestForm);
 router.post('/process', upload.single('file'), processFile);
+router.post('/process', processFile);
 
 module.exports = router;
 

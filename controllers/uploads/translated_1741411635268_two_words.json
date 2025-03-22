@@ -1,0 +1,213 @@
+{
+  "analysis": {
+    "pdf_path": "static/uploads/10edf60d-87c0-4471-9507-1c56d7c51abf_1741411630571-659583906.pdf",
+    "total_pages": 1,
+    "analyzed_pages": 1,
+    "language": "english",
+    "pages": [
+      {
+        "page": 1,
+        "majority_bg_color": "#FEFEFE",
+        "majority_fg_color": "#000000",
+        "text_info": [
+          {
+            "text": "Hello",
+            "bounding_box": {
+              "x": 1193,
+              "y": 193,
+              "width": 216,
+              "height": 75
+            },
+            "text_color": "#060606",
+            "bg_color": "#FBFBFB",
+            "font_size": 26,
+            "font_confidence": 79.46213471932954,
+            "styles": {
+              "is_bold": true,
+              "is_italic": false,
+              "is_underlined": false,
+              "probabilities": {
+                "normal": 0.000010073184967041016,
+                "bold": 1,
+                "italic": 1.1920928955078125e-7,
+                "underline": 0.0000029802322387695312
+              }
+            },
+            "confidence": 91
+          },
+          {
+            "text": "World",
+            "bounding_box": {
+              "x": 1171,
+              "y": 429,
+              "width": 253,
+              "height": 75
+            },
+            "text_color": "#070707",
+            "bg_color": "#FCFCFC",
+            "font_size": 28,
+            "font_confidence": 75.90962061703969,
+            "styles": {
+              "is_bold": true,
+              "is_italic": false,
+              "is_underlined": false,
+              "probabilities": {
+                "normal": 0.00006908178329467773,
+                "bold": 1,
+                "italic": 0.0000025033950805664062,
+                "underline": 0.000009298324584960938
+              }
+            },
+            "confidence": 85
+          }
+        ]
+      }
+    ]
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "pageSize": {
+        "width": 595.28,
+        "height": 841.89
+      },
+      "textItems": [
+        {
+          "originalText": "Hello",
+          "translatedText": "Bonjour",
+          "fontSize": 26,
+          "color": "#060606",
+          "styles": {
+            "isBold": true,
+            "isItalic": false,
+            "isUnderlined": false
+          },
+          "boundingBox": {
+            "original": {
+              "x": 1193,
+              "y": 193,
+              "width": 216,
+              "height": 75
+            },
+            "scaled": {
+              "x": 284.067616,
+              "y": 755.1105692307692,
+              "width": 51.432192,
+              "height": 24.285288461538464
+            },
+            "pageSize": {
+              "width": 595.28,
+              "height": 841.89
+            }
+          },
+          "_debug": {
+            "detectionImageSize": {
+              "width": 2500,
+              "height": 2600
+            },
+            "scaleFactors": {
+              "x": 0.238112,
+              "y": 0.32380384615384616
+            }
+          }
+        },
+        {
+          "originalText": "World",
+          "translatedText": "Monde",
+          "fontSize": 28,
+          "color": "#070707",
+          "styles": {
+            "isBold": true,
+            "isItalic": false,
+            "isUnderlined": false
+          },
+          "boundingBox": {
+            "original": {
+              "x": 1171,
+              "y": 429,
+              "width": 253,
+              "height": 75
+            },
+            "scaled": {
+              "x": 278.82915199999997,
+              "y": 678.6928615384616,
+              "width": 60.242335999999995,
+              "height": 24.285288461538464
+            },
+            "pageSize": {
+              "width": 595.28,
+              "height": 841.89
+            }
+          },
+          "_debug": {
+            "detectionImageSize": {
+              "width": 2500,
+              "height": 2600
+            },
+            "scaleFactors": {
+              "x": 0.238112,
+              "y": 0.32380384615384616
+            }
+          }
+        }
+      ],
+      "rawPage": {
+        "page": 1,
+        "majority_bg_color": "#FEFEFE",
+        "majority_fg_color": "#000000",
+        "text_info": [
+          {
+            "text": "Hello",
+            "bounding_box": {
+              "x": 1193,
+              "y": 193,
+              "width": 216,
+              "height": 75
+            },
+            "text_color": "#060606",
+            "bg_color": "#FBFBFB",
+            "font_size": 26,
+            "font_confidence": 79.46213471932954,
+            "styles": {
+              "is_bold": true,
+              "is_italic": false,
+              "is_underlined": false,
+              "probabilities": {
+                "normal": 0.000010073184967041016,
+                "bold": 1,
+                "italic": 1.1920928955078125e-7,
+                "underline": 0.0000029802322387695312
+              }
+            },
+            "confidence": 91
+          },
+          {
+            "text": "World",
+            "bounding_box": {
+              "x": 1171,
+              "y": 429,
+              "width": 253,
+              "height": 75
+            },
+            "text_color": "#070707",
+            "bg_color": "#FCFCFC",
+            "font_size": 28,
+            "font_confidence": 75.90962061703969,
+            "styles": {
+              "is_bold": true,
+              "is_italic": false,
+              "is_underlined": false,
+              "probabilities": {
+                "normal": 0.00006908178329467773,
+                "bold": 1,
+                "italic": 0.0000025033950805664062,
+                "underline": 0.000009298324584960938
+              }
+            },
+            "confidence": 85
+          }
+        ]
+      }
+    }
+  ]
+}

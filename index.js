@@ -27,7 +27,7 @@ app.use('/users', userRoutes);
 app.use('/files', fileRoutes);
 
 
-<<<<<<< HEAD
+
 
 
 // app.get('/upload', (req, res) => {
